@@ -1,0 +1,54 @@
+.div-profile-image {
+    height: 152px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.profile-image {
+    max-height: 75%;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+}
+
+.my-informations {
+    height: 48px;
+    width: 100%;
+    margin: 16px 0px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-name {
+    height: 24px;
+    width: 100%;
+    font-weight: 600;
+    font-size: var(--title-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.my-work {
+    height: 16px;
+    width: 100%;
+    font-weight: 400;
+    font-size: var(--small-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+}
+
+.links-my-social-networks{
+    height: 286px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
