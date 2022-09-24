@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.image-icon-social-network{
+    width: 32px;
+}
+
 .text-social-network {
     width: 100%;
     font-weight: 500;
@@ -36,5 +40,4 @@
     .link-social-network {
         max-width: 488px;
     }
-    
 }

@@ -1,0 +1,37 @@
+.container-languages-tecnologies{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.subtitle-languages-tecnologies {
+    height: 24px;
+    width: 100%;
+    margin: 56px 0px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: var(--normal-size);
+    color: var(--white);
+}
+
+.cards {
+    min-height: 288px;
+    width: 100%;
+    max-width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-languages-tecnologies {
+    width: 25%;
+    max-width: 100px;
+    border-radius: 20%;
+    margin: 2%;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+}

@@ -1,6 +1,4 @@
-
-
-import { MyLinkls } from '../../components/MyLinks/MyLinks.component';
+import { LangAndTec, MyLinks } from '../../components';
 import './HomeScreen.style.css'
 
 export function HomeScreen() {
@@ -8,11 +6,11 @@ export function HomeScreen() {
         <section className="main">
 
             <section className="my-links">
-                <MyLinkls/>
+                <MyLinks />
             </section>
 
             <section className="languages-and-technologies">
-
+                <LangAndTec />
             </section>
 
             <section className="courses-and-certificates">

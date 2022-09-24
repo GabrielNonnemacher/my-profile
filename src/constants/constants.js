@@ -3,6 +3,15 @@ import facebookIcon from '../assets/images/facebookIcon.png';
 import linkedInIcon from '../assets/images/linkedInIcon.png';
 import twitterIcon from '../assets/images/twitterIcon.png';
 import gitHubIcon from '../assets/images/gitHubIcon.png';
+import logoHtml5 from '../assets/images/logoHtml5.png';
+import logoReact from '../assets/images/logoReact.png';
+import logoSpring from '../assets/images/logoSpring.png';
+import logoCss3 from '../assets/images/logoCss3.png';
+import logoC from '../assets/images/logoC.png';
+import logoJava from '../assets/images/logoJava.png';
+import logoJS from '../assets/images/logoJS.png';
+import logoPostgreSQL from '../assets/images/logoPostgreSQL.png';
+import logoFigma from '../assets/images/logoFigma.png';
 
 export const SOCIAL_NETWORKS = {
     instagram: {
@@ -35,4 +44,19 @@ export const SOCIAL_NETWORKS = {
 export const MY_INFORMATIONS = {
     name: "Gabriel José Nonnemacher",
     work: "Developer & Computer Engineer"
+}
+
+export const LANGUAGES_AND_TECNOLOGIES = {
+    title: "Linguagens & Tecnologias",
+    logos: [
+        logoHtml5,
+        logoJS,
+        logoCss3,
+        logoSpring,
+        logoReact,
+        logoJava,
+        logoC,
+        logoPostgreSQL,
+        logoFigma
+    ]
 }

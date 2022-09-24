@@ -4,7 +4,7 @@ import ProfileImage from '../../assets/images/ProfileImage.jpg'
 import './MyLinks.style.css'
 import { MY_INFORMATIONS, SOCIAL_NETWORKS } from '../../constants/constants';
 
-export function MyLinkls() {
+export function MyLinks() {
 
     return (
         <div>
