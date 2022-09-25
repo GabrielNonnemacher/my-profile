@@ -3,10 +3,6 @@ import './Button.style.css'
 
 export function Button({ children }) {
 
-    function handleClickLink() {
-
-    }
-
     return (
         <a
             className="link-social-network"

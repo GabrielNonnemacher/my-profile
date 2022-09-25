@@ -17,6 +17,10 @@ export function HomeScreen() {
 
             </section>
 
+            <section className="footer">
+                
+            </section>
+
         </section>
     );
 }
